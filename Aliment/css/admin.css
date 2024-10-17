@@ -1,0 +1,163 @@
+/*atende ao: login-adm, select-adm*//*TODO: colocar comentários certos*/
+
+
+/*LOGIN-ADM*/
+.body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.div {
+  background-color: #f4bd75;
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+.div h2{
+  text-align: center;
+  color: #000000;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.label{
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  padding-left: 10px;
+  margin: 10px;
+  color: #000000;
+}
+
+.input_add{
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 3px;
+  background-color: #ffd59f;
+  color: black;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  width: 90%;
+  border: none;
+  height: 40px;
+}
+
+.input_add:focus{
+  outline: none;
+  background-color: #EDE3C8;
+  border: 0.5px solid #6c6c6c;
+  transition: all 1s linear;
+}
+
+.custom-file {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-file input[type="file"] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.btn-upload {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.custom-file input[type="file"]:focus + .btn-upload {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn-log {
+  background-color: #FA8E51;
+  color: #000000;
+  width: 50%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+
+.btn-log:hover {
+  background-color: #EDE3C8;
+  width: 70%;
+  transition: all 1s ease-in-out;
+}
+
+/*DASHBOARD*/
+.btn-add{
+  background-color: #f4bd75;
+  width: 85%;
+  border: none;
+  margin: 7px;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.btn-add:hover{
+  background-color: #ffd59f;
+  width: 90%;
+  transition: all 1s ease-in-out;
+}
+
+.square {
+  margin: 5px 2.5px;
+  border-radius: 15px;
+  width: 80px; /* Ajuste o tamanho conforme necessário */
+  height: 80px; /* Ajuste o tamanho conforme necessário */
+  object-fit: cover;
+}
+
+.figure0 {
+  margin: 0;
+}
+
+.image-container {
+flex: 0 0 auto;
+}
+
+/*SELECT_ADM*/
+.btn-back{
+  margin: 10px;
+  background-color: #f4bd75;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 3px;
+  width: 90px;
+}
+
+.btn-back:hover{
+  width: 120px;
+  background-color: #FA8E51;
+  cursor: pointer;
+  transition: all 1s linear;
+}

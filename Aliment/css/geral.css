@@ -1,0 +1,155 @@
+/*Serve: index.php, cabecalho.php, categorias.php*/
+/*TODO: colocar comentários certos*/
+
+@font-face {
+  font-family: raillinc;
+  src: url(/fonts/Raillinc.otf);
+}
+
+/*APRESENTATION.PHP*/
+
+.btn-app{
+  background-color: #fff;
+  color: #A63E33;
+  font-family: raillinc;
+  border: none;
+  border-radius: 5px;
+  width: 50%;
+  margin: 150px auto 0 290px;
+  padding: 20px 30px;
+}
+
+/*CABECALHO.PHP*/
+.cabecalho{
+  background-color: #FA8E51;
+  margin-top: 10px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 0 30px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.btn-logo{
+  background-color: transparent !important;
+  text-align: center;
+  border: none;
+  margin: 15px 20px 0 20px;
+}
+
+.btn-logo img{
+  width: 50%;
+}
+
+.nav-nvgc{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.btn-nvgc{
+  background-color: #FABC8A;
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  border: none;
+  border-radius: 90px;
+  width: 140px;
+  margin: 5px;
+  height: 65%;
+  padding: 0 20px;
+  justify-content: center;
+  align-items: center;
+  display: flexbox;
+}
+
+.btn-nvgc:hover{
+  width: 170px;
+  background-color: #FA8E51;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+/*INDEX.PHP*/
+
+.article-container {
+  margin: 5px 30px;
+  display: flex;
+  align-items: center;
+  padding: 0 40px 0 60px;
+}
+
+.article-container1 {
+  margin: 5px 30px;
+  display: flex;
+  align-items: center;
+  padding: 0 60px 0 40px;
+}
+
+.image-container {
+  flex: 0 0 auto;
+}
+
+.text-container {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 5px 10px 0 0;
+  padding: 10px 55px 10px 5px;
+  flex: 1;
+}
+
+.text-container1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 5px 0 0 10px;
+  flex: 1;
+  padding: 10px 5px 10px 55px;
+}
+
+.circle {
+  margin: 20px 10px;
+  border-radius: 15px;
+  width: 150px; /* Ajuste o tamanho conforme necessário */
+  height: 150px; /* Ajuste o tamanho conforme necessário */
+  object-fit: cover;
+}
+
+figure {
+  margin: 0;
+}
+
+/* CATEGORIAS.PHP */
+
+.header{
+  background-color: #FA8E51;
+  margin-top: 10px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-cat{
+  background-color: #FABC8A;
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  border: none;
+  border-radius: 90px;
+  width: 190px;
+  margin: 5px;
+  height: 80%;
+}
+
+.btn-cat:hover{
+  width: 180px;
+  background-color: #FA8E51;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
